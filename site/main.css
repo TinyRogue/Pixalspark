@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lustria');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Major Mono Display');
+@import url('https://fonts.googleapis.com/css?family=Syne Mono');
+
+* { cursor: none !important; }
+
+.cursor {
+    position: absolute;
+	width: 15px;
+    height: 15px;
+    background-color: #22181C;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+	position: absolute;
+    border: 1px solid #312F2F;
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #FDF8F3;
+    color: #22181C;
+}
+
+header {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font: 4.2em 'Lustria', Serif, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#title1 {
+    transform: translateX(-50%);
+}
+
+#title2 {
+    transform: translateX(50%);
+}
+
+.line{
+    width: 200px;
+    border-bottom: 2px solid #22181C;
+    transform: rotate(-45deg);
+}
+
+h4 {
+    margin-top: 2.5em;
+    font: 1.5em 'Syne Mono', Sans-serif, sans-serif;
+}
+
+button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 1.5em 'Raleway', Sans-serif, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #648381;
+    padding: 15px 15px;
+    transition: 0.25s;
+    width: 10em;
+    text-decoration: overline;
+}
+
+button:hover {
+  box-shadow:
+    inset -5em 0 0 0 #648381, inset 5em 0 0 0 #648381;
+}
